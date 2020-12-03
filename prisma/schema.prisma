@@ -16,9 +16,31 @@ model Post {
   authorId  Int?
 }
 
+model Pratiques {
+  id Int @default(autoincrement())
+  date String?
+  type String
+  note Int
+  dateTimeStart String
+  duration Int
+  dateTimeEnd String
+  useProducts String?
+}
+
+model Spots {
+  id Int @default(autoincrement()) @id
+  name String
+  description String?
+  latitude Int
+  longitude Int
+  authorId Int?
+}
+
 model User {
   id    Int     @default(autoincrement()) @id
   email String  @unique
-  name  String?
-  posts Post[]
+  lastname  String?
+  firstname String?
+  password  String
+  powerLevel Int
 }
