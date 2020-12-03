@@ -10,7 +10,7 @@ const SignUp: React.FC = () => {
     e.preventDefault()
     try {
       const body = {name, email}
-      const res = await fetch(`http://nextcloud.carnot.cc:3000/api/user`, {
+      const res = await fetch(`http://localhost.cc:3000/api/user`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(body),
