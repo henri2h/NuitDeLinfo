@@ -11,7 +11,7 @@ const Draft: React.FC = () => {
     e.preventDefault()
     try {
       const body = {title, content, authorEmail}
-      const res = await fetch(`http://nextcloud.carnot.cc:3000/api/post`, {
+      const res = await fetch(`http://localhost:3000/api/post`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(body),

@@ -11,8 +11,10 @@ const SignUp: React.FC = () => {
   const submitData = async (e: React.SyntheticEvent) => {
     e.preventDefault();
     try {
+
       const body = {firstname, lastname, email, password, chkPass};
       const res = await fetch(`http://localhost:3000/api/user`, {
+main
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(body),
