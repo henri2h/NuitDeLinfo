@@ -18,17 +18,19 @@ export default async function handle(req, res) {
 
 // GET /api/post/:id
 async function handleGET(postId, res) {
-  const post = await prisma.post.findOne({
+  const post = {};
+      /*await prisma.post.findOne({
     where: { id: Number(postId) },
     include: { author: true },
-  })
+  })*/
   res.json(post)
 }
 
 // DELETE /api/post/:id
 async function handleDELETE(postId, res) {
-  const post = await prisma.post.delete({
+  const post = {};
+  /*await prisma.post.delete({
     where: { id: Number(postId) },
-  })
+  })*/
   res.json(post)
 }
