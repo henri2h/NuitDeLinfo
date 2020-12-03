@@ -33,7 +33,5 @@ model User {
   lastname  String?
   firstname String?
   password  String
-  token String?
-  tokenDate String?
   powerLevel Int
 }
