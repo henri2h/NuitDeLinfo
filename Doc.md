@@ -17,8 +17,12 @@ Backend
 
 ## Authentification
 
+/signup
+
 /login
     username
     password
 
     -> retourne {token}
+
+/logout

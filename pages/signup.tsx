@@ -1,57 +1,50 @@
 import React, {useState} from 'react'
 import Router from 'next/router'
-import Layout from '../components/Layout'
 
 const SignUp: React.FC = () => {
-  const [name, setName] = useState('')
-  const [email, setEmail] = useState('')
+  const [firstname, setFirstname] = useState('');
+  const [lastname, setLastname] = useState('');
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
+  const [chkPass, setChkPass] = useState('');
 
   const submitData = async (e: React.SyntheticEvent) => {
-    e.preventDefault()
+    e.preventDefault();
     try {
-      const body = {name, email}
-      const res = await fetch(`http://localhost.cc:3000/api/user`, {
+
+      const body = {firstname, lastname, email, password, chkPass};
+      const res = await fetch(`http://localhost:3000/api/user`, {
+main
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(body),
       })
-      const data = await res.json()
-      Router.push('/')
+      const data = await res.json();
+      Router.push('/');
     } catch (error) {
       console.error(error)
     }
   }
 
   return (
-  <Layout>
-    <div className="page">
-      <form
-        onSubmit={submitData}>
-        <h1>Signup user</h1>
-        <input
-          autoFocus
-          onChange={e => setName(e.target.value)}
-          placeholder="Name"
-          type="text"
-          value={name}
-        />
-        <input
-          onChange={e => setEmail(e.target.value)}
-          placeholder="Email address"
-          type="text"
-          value={email}
-        />
-        <input
-          disabled={!name || !email}
-          type="submit"
-          value="Signup"
-        />
-        <a className="back" href="#" onClick={() => Router.push('/')}>
-          or Cancel
-        </a>
-      </form>
-    </div>
-    <style jsx>{`
+      <div>
+        <div className="page">
+          <form onSubmit={submitData}>
+            <h1>Signup user</h1>
+            <input autoFocus onChange={e => setFirstname(e.target.value)} placeholder="Prénom" type="text" value={firstname}/>
+            <input onChange={e => setLastname(e.target.value)} placeholder="Nom" type="text" value={lastname}/>
+            <input onChange={e => setEmail(e.target.value)} placeholder="Email" type="text" value={email} />
+            <input onChange={e => setPassword(e.target.value)} placeholder="Password" type="password" value={password} />
+            <input onChange={e => setChkPass(e.target.value)} placeholder="Check password" type="password" value={chkPass} />
+
+            <input disabled={!firstname || !lastname || !email || !password || password !== chkPass} type="submit" value="Signup"/>
+
+            <a className="back" href="#" onClick={() => Router.push('/')}>
+              or Cancel
+            </a>
+          </form>
+        </div>
+        <style jsx>{`
       .page {
         background: white;
         padding: 3rem;
@@ -77,8 +70,8 @@ const SignUp: React.FC = () => {
         margin-left: 1rem;
       }
     `}</style>
-  </Layout>
+      </div>
   )
 }
 
-export default SignUp
+export default SignUp;
