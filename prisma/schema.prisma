@@ -7,17 +7,8 @@ datasource db {
   url      = "file:./dev.db"
 }
 
-model Post {
-  id        Int     @default(autoincrement()) @id
-  title     String
-  content   String?
-  published Boolean @default(false)
-  author    User?   @relation(fields: [authorId], references: [id])
-  authorId  Int?
-}
-
 model Pratiques {
-  id Int @default(autoincrement())
+  id Int @default(autoincrement()) @id
   date String?
   type String
   note Int
