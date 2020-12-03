@@ -144,9 +144,8 @@ const Home: React.FC<Props> = (props) => {
   );
 };
 
-export const getServerSideProps: GetServerSideProps = async () => {
-  const res = await fetch("http://localhost:3000/api/feed");
-  console.log(res.text());
+export const getServerSideProps: GetServerSideProps = async (promise) => {
+  console.log(promise.req.headers['x-forwarded-for'] || promise.req.connection.remoteAddress);
   const feed = [];
   return {
     props: { feed },
