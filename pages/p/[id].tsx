@@ -6,7 +6,7 @@ import Router from 'next/router'
 import { PostProps } from '../../components/Post'
 
 async function publish(id: number): Promise<void> {
-  const res = await fetch(`http://localhost:3000/api/publish/${id}`, {
+  const res = await fetch(`http://nextcloud.carnot.cc:3000/api/publish/${id}`, {
     method: 'PUT',
   })
   const data = await res.json()
@@ -14,7 +14,7 @@ async function publish(id: number): Promise<void> {
 }
 
 async function destroy(id: number): Promise<void> {
-  const res = await fetch(`http://localhost:3000/api/post/${id}`, {
+  const res = await fetch(`http://nextcloud.carnot.cc:3000/api/post/${id}`, {
     method: 'DELETE',
   })
   const data = await res.json()
