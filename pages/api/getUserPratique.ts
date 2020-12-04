@@ -5,7 +5,9 @@ const prisma = new PrismaClient()
 export default async function handle(req, res) {
     const { user_id_query } = req.query
     const post = await prisma.pratiques.findMany({
-        where: { user_id:  req.user_id_query }
+        where: {
+            id: req.user_id_query
+        }
     })
-    res.json(posts)
+    res.json(post)
 }

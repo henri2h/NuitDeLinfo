@@ -4,5 +4,5 @@ const prisma = new PrismaClient()
 
 export default async function handle(req, res) {
     const post = await prisma.pratiques.findMany()
-    res.json(posts)
+    res.json(post)
 }
