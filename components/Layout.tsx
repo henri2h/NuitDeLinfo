@@ -7,11 +7,11 @@ type Props = {
 }
 
 const Layout: React.FC<Props> = ( props ) => (
-  <div>
-    <Header />
-    <div className="layout">{props.children}</div>
- 
-  </div>
-)
+        <div>
+            <Header/>
+            <div className="layout">{props.children}</div>
 
-export default Layout
+        </div>
+    )
+
+export default Layout;

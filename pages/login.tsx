@@ -22,16 +22,56 @@ const Login: React.FC = () => {
 	}
 
 	return (
-		<div>
+		<div className="form-wrapper">
 			<div className="page">
 				<form onSubmit={submitData}>
 					<h1>Log in</h1>
-					<input onChange={e => setEmail(e.target.value)} placeholder="Email" type="text" value={email} />
-					<input onChange={e => setPassword(e.target.value)} placeholder="Password" type="password" value={password} />
+					<div>
+						<input onChange={e => setEmail(e.target.value)} placeholder="Email" type="text" value={email} />
+					</div>
+					<div>
+						<input onChange={e => setPassword(e.target.value)} placeholder="Password" type="password" value={password} />
+					</div>
 
-					<input disabled={!email || !password} type="submit" value="Log in"/>
+					<div>
+						<input disabled={!email || !password} type="submit" value="Log in"/>
+					</div>
 				</form>
 			</div>
+			<style jsx>{`
+				.form-wrapper {
+					display: inline-block;
+					width: 35vw;
+					margin: auto;
+					margin-top: 30vh;
+					font-family: sans-serif;
+					text-align: center;
+				}
+				input {
+					margin-top: 50px;
+				}
+				input[type="text"], input[type="password"] {
+					border: 2px solid #545454;
+					border-radius: 3px;
+					padding: 2px 5px;
+					width: 300px;
+					height: 32px;
+					font-size: 1.1em;
+				}
+				input[type="submit"] {
+					width: 150px;
+					height: 40px;
+					border: 2px solid #d4b658;
+					background: transparent;
+					color: #545454;
+					transition: background 350ms ease;
+					font-size: 1.2em;
+				}
+				input[type="submit"]:hover {
+					background: #d4b658;
+					color: #404040;
+				}
+			`}</style>
 		</div>
 	)
 };

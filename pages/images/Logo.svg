@@ -1,87 +1,36 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="227.17908mm"
-   height="227.17908mm"
-   viewBox="0 0 227.17908 227.17908"
-   version="1.1"
-   id="svg3084"
-   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
-   sodipodi:docname="Logo.svg">
-  <defs
-     id="defs3078">
-    <clipPath
-       clipPathUnits="userSpaceOnUse"
-       id="clipPath950">
-      <circle
-         style="fill:#ff00ff;fill-opacity:0.329218;stroke:none;stroke-width:0.399695;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:0.399695, 1.59879;paint-order:markers fill stroke"
-         id="circle952"
-         cx="-851.78802"
-         cy="798.33411"
-         r="113.58954" />
-    </clipPath>
-  </defs>
-  <sodipodi:namedview
-     id="base"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageopacity="0.0"
-     inkscape:pageshadow="2"
-     inkscape:zoom="0.35"
-     inkscape:cx="115.02915"
-     inkscape:cy="600.74335"
-     inkscape:document-units="mm"
-     inkscape:current-layer="layer1"
-     inkscape:document-rotation="0"
-     showgrid="false"
-     inkscape:window-width="1816"
-     inkscape:window-height="1030"
-     inkscape:window-x="-61"
-     inkscape:window-y="85"
-     inkscape:window-maximized="0" />
-  <metadata
-     id="metadata3081">
-    <rdf:RDF>
-      <cc:Work
-         rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
-  <g
-     inkscape:label="Calque 1"
-     inkscape:groupmode="layer"
-     id="layer1"
-     transform="translate(-75.398537,10.780012)">
-    <g
-       id="g948"
-       clip-path="url(#clipPath950)"
-       transform="translate(1040.7761,-695.52458)">
-      <path
-         style="fill:#0f7ab8;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         d="m -782.44954,820.59577 c -61.98811,-63.5 -104.84573,-83.30598 -127.31526,-46.56744 -31.40864,51.3543 85.23154,111.36754 151.94435,123.84075 l -0.48002,27.21932 h -227.54168 l -0.76102,-250.92391 c 169.06034,5.06565 204.15363,146.43128 204.15363,146.43128 z"
-         id="path863-8-1"
-         sodipodi:nodetypes="csccccc" />
-      <path
-         style="fill:#000000;fill-opacity:0.329218;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         d="M -907.42863,872.28918 -774.47349,1043.3593 -661.37302,887.29656 -794.32818,716.22642"
-         id="path914-7"
-         sodipodi:nodetypes="cccc" />
-      <path
-         style="fill:#fdd073;fill-opacity:1;stroke:none;stroke-width:0.866637px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         d="m -907.42863,872.28919 c 2.09168,-30.28546 64.16304,-152.99757 113.10045,-156.06276 18.12106,45.56197 -66.34546,154.08165 -92.83913,168.90292 l -6.52715,-12.10633 z"
-         id="path867-1"
-         sodipodi:nodetypes="ccccc" />
-    </g>
-  </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1"
+	 id="svg3084" inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)" sodipodi:docname="Logo.svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:svg="http://www.w3.org/2000/svg"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1072 939"
+	 style="enable-background:new 0 0 1072 939;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#DDDDDD;}
+	.st1{fill:#FFFFFF;}
+	.st2{clip-path:url(#SVGID_2_);}
+	.st3{fill:#0F7AB8;}
+	.st4{fill-opacity:0.3292;}
+	.st5{fill:#FDD073;}
+</style>
+<rect class="st0" width="1072" height="939"/>
+<circle class="st1" cx="536" cy="469.5" r="322.5"/>
+<sodipodi:namedview  bordercolor="#666666" borderopacity="1.0" id="base" inkscape:current-layer="layer1" inkscape:cx="115.02915" inkscape:cy="600.74335" inkscape:document-rotation="0" inkscape:document-units="mm" inkscape:pageopacity="0.0" inkscape:pageshadow="2" inkscape:window-height="1030" inkscape:window-maximized="0" inkscape:window-width="1816" inkscape:window-x="-61" inkscape:window-y="85" inkscape:zoom="0.35" pagecolor="#ffffff" showgrid="false">
+	</sodipodi:namedview>
+<g id="layer1" transform="translate(-75.398537,10.780012)" inkscape:groupmode="layer" inkscape:label="Calque 1">
+	<g>
+		<defs>
+			<circle id="SVGID_1_" cx="611.4" cy="458.7" r="322"/>
+		</defs>
+		<clipPath id="SVGID_2_">
+			<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+		</clipPath>
+		<g id="g948" transform="translate(1040.7761,-695.52458)" class="st2">
+			<path id="path863-8-1" sodipodi:nodetypes="csccccc" class="st3" d="M-232.8,1217.3c-175.7-180-297.2-236.1-360.9-132
+				c-89,145.6,241.6,315.7,430.7,351l-1.4,77.2h-645l-2.2-711.3C-332.3,816.6-232.8,1217.3-232.8,1217.3L-232.8,1217.3z"/>
+			<path id="path914-7" sodipodi:nodetypes="cccc" class="st4" d="M-587.1,1363.9l376.9,484.9l320.6-442.4l-376.9-484.9"/>
+			<path id="path867-1" sodipodi:nodetypes="ccccc" class="st5" d="M-587.1,1363.9c5.9-85.8,181.9-433.7,320.6-442.4
+				c51.4,129.2-188.1,436.8-263.2,478.8l-18.5-34.3L-587.1,1363.9z"/>
+		</g>
+	</g>
+</g>
 </svg>
