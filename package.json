@@ -21,7 +21,7 @@
     "react-bulma-components": "^3.4.0",
     "react-calendar-heatmap": "^1.8.1",
     "react-dom": "^17.0.1",
-    "react-markdown": "^5.0.0"
+    "react-markdown": "^6.0.0"
   },
   "devDependencies": {
     "@prisma/cli": "2.12.1",
